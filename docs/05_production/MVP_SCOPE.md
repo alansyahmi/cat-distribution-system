@@ -1,8 +1,9 @@
 # CaDS — MVP / First Playable Scope
 
 - **Document ID:** DOC-PROD-001
-- **Version:** 0.1
+- **Version:** 0.2
 - **Status:** Draft scope proposal
+- **Last updated:** 2026-11-13
 
 ## 1. Purpose
 
@@ -54,9 +55,25 @@ The first playable build is a vertical slice, not a miniature version of the ent
 - Save/load player location, needs, relevant object states, relationship state and activity progress.
 - Versioned save format, even if the first schema is small.
 
-## 3. Explicitly excluded
+## 3. Explicitly excluded from the first playable
 
-Multiple fully developed districts; full main story and all endings; large quest chains or branching dialogue trees; full survival simulation or many needs; complex combat; full animal ecology or breeding; large crowds and city-scale simulation; online features or multiplayer; elaborate economy, crafting or housing decoration; full mobile optimisation and platform certification.
+The following are part of the broader design direction but are not required to validate the first playable:
+
+- Multiple fully developed districts or seamless streaming across the full neighbourhood.
+- Full main story and all endings.
+- Large quest chains or branching dialogue trees.
+- Full needs, moodlet, Wants/Fears and Aspirations implementation.
+- Full ageing, Nine Lives, pregnancy, birth and multi-generation lineage simulation.
+- Autonomous household formation, splitting and relocation at neighbourhood scale.
+- Multiple residences per cat and detailed territorial memory.
+- Soft population ecology and long-term neighbourhood development.
+- Detailed human life simulation.
+- Full animal ecology or breeding.
+- Dedicated animal-welfare organisations, rescue networks, shelter operations, adoption-centre systems or community-programme management (deferred to possible future expansion/DLC).
+- Large crowds and city-scale simulation.
+- Online features or multiplayer.
+- Elaborate economy, crafting or housing decoration.
+- Full mobile optimisation and platform certification.
 
 Excluded does not mean permanently rejected. It means the feature must not block validation of the first playable loop.
 
