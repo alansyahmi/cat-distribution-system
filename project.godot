@@ -1,0 +1,33 @@
+; Cat Distribution System (CaDS)
+; Engine baseline: Godot 4.7.2 Stable
+; PC-first development; mobile is a later target.
+
+config_version=5
+
+[application]
+
+config/name="Cat Distribution System"
+config/description="A feline-first 3D neighbourhood life simulator."
+run/main_scene="res://scenes/testbeds/embodiment_testbed.tscn"
+config/version="0.1.0"
+
+[display]
+
+[display/window]
+
+size/viewport_width=1600
+size/viewport_height=900
+size/window_width_override=1280
+size/window_height_override=720
+size/resizable=true
+
+[physics]
+
+3d/default_gravity=9.8
+common/physics_ticks_per_second=60
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+renderer/rendering_method.mobile="mobile"
+environment/defaults/default_clear_color=Color(0.45, 0.58, 0.67, 1)
