@@ -1,0 +1,27 @@
+# Godot-generated project cache and editor metadata
+.godot/
+
+# Imported asset cache from older Godot versions
+.import/
+
+# Export output
+/build/
+/dist/
+*.exe
+*.pck
+*.zip
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local logs and temporary files
+*.log
+*.tmp
+
+# Keep export_presets.cfg out of version control if it contains
+# signing credentials or other local secrets.
+export_presets.cfg
